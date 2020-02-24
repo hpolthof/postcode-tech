@@ -1,4 +1,6 @@
 # Dutch Postcode Lookup
+[![Build Status](https://travis-ci.org/hpolthof/postcode-tech.svg?branch=master)](https://travis-ci.org/hpolthof/postcode-tech)
+
 This is a wrapper around the API of [Postcode.Tech](https://postcode.tech). You need an API key for this
 API to work. You can register for free and create an API Key.
 
