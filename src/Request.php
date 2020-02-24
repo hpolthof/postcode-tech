@@ -34,13 +34,13 @@ class Request implements RequestInterface
             ->setHeaders($headers);
     }
 
-    public function setHeader(string $name, string $value): self
+    public function setHeader(string $name, string $value): RequestInterface
     {
         $this->headers[$name] = $value;
         return $this;
     }
 
-    public function setBearer(string $token): self
+    public function setBearer(string $token): RequestInterface
     {
         return $this->setHeader('Authorization', "Bearer {$token}");
     }

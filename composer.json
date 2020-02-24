@@ -1,7 +1,11 @@
 {
     "name": "hpolthof/postcode-tech",
     "description": "A library to easily lookup Dutch postcodes using postcode.tech",
+    "license": "gpl-3.0",
     "type": "library",
+    "require": {
+        "php": "7.3.0"
+    },
     "require-dev": {
         "phpunit/phpunit": "^9.0"
     },

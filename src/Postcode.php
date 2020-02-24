@@ -4,10 +4,10 @@ namespace Hpolthof\PostcodeTech;
 
 class Postcode
 {
-    protected string $postcode;
-    protected int $number;
-    protected string $street;
-    protected string $city;
+    protected $postcode;
+    protected $number;
+    protected $street;
+    protected $city;
 
     public static function search($postcode, $number, $token): self
     {

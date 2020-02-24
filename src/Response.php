@@ -18,7 +18,7 @@ class Response implements ResponseInterface
         $this->status = $status;
     }
 
-    public function setHeaders(array $headers = []): self
+    public function setHeaders(array $headers = []): ResponseInterface
     {
         $this->headers = [];
 

@@ -6,10 +6,10 @@ namespace Hpolthof\PostcodeTech;
 
 class PostcodeResponse implements PostcodeResponseInterface
 {
-    private string $postcode;
-    private int $number;
-    private string $street;
-    private string $city;
+    private $postcode;
+    private $number;
+    private $street;
+    private $city;
 
     public function getPostcode(): string
     {

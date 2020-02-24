@@ -11,7 +11,7 @@ class PostcodeRequest implements PostcodeRequestInterface
 {
     const BASE_URL = 'https://postcode.tech';
 
-    private string $token = '';
+    private $token = '';
 
     public function find(string $postcode, int $number): PostcodeResponseInterface
     {
