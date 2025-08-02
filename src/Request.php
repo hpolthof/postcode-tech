@@ -46,7 +46,7 @@ class Request implements RequestInterface
     }
 
 
-    final private function getFormattedHeaders(): string
+    private function getFormattedHeaders(): string
     {
         $headers = '';
         foreach ($this->headers as $key => $value) {
