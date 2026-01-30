@@ -1,7 +1,7 @@
 <?php
 
 
-use Kkevindev\PostcodeTech\Client;
+use Hpolthof\PostcodeTech\Client;
 use PHPUnit\Framework\TestCase;
 
 final class ClientTest extends TestCase

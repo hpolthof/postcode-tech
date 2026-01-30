@@ -1,8 +1,8 @@
 <?php
 
-namespace Kkevindev\PostcodeTech\Tests;
+namespace Hpolthof\PostcodeTech\Tests;
 
-use Kkevindev\PostcodeTech\Postcode;
+use Hpolthof\PostcodeTech\Postcode;
 use PHPUnit\Framework\TestCase;
 
 final class PostcodeTest extends TestCase

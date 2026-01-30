@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Kkevindev\PostcodeTech\Http\Response;
+namespace Hpolthof\PostcodeTech\Http\Response;
 
-use Kkevindev\PostcodeTech\Exceptions\HttpException;
+use Hpolthof\PostcodeTech\Exceptions\HttpException;
 
 final class Response
 {

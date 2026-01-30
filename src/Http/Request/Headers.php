@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Kkevindev\PostcodeTech\Http\Request;
+namespace Hpolthof\PostcodeTech\Http\Request;
 
 final class Headers
 {

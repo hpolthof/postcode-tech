@@ -1,5 +1,5 @@
 # Dutch Postcode Lookup
-![PHPUnit Tests](https://github.com/kkevindev/postcode-tech/actions/workflows/quality_assurance.yaml/badge.svg)
+![PHPUnit Tests](https://github.com/hpolthof/postcode-tech/actions/workflows/quality_assurance.yaml/badge.svg)
 ![Latest Stable Version](https://img.shields.io/badge/PHP%20version-8.1%20~%208.5-34D058)
 
 This is a wrapper around the [postcode.tech Postcode API](https://postcode.tech).
@@ -7,7 +7,7 @@ This is a wrapper around the [postcode.tech Postcode API](https://postcode.tech)
 ## Installation
 To install use composer
 ```bash
-composer require kkevindev/postcode-tech
+composer require hpolthof/postcode-tech
 ```
 
 ## Requirements
@@ -16,10 +16,10 @@ You need an API key for this API to work. You can register for free and create a
 ## Usage
 Please see the example below for usage:
 ```php
-use Kkevindev\PostcodeTech\Exceptions\HttpException;
-use Kkevindev\PostcodeTech\Exceptions\PostcodeNotFoundException;
-use Kkevindev\PostcodeTech\Exceptions\ValidationException;
-use Kkevindev\PostcodeTech\Postcode;
+use Hpolthof\PostcodeTech\Exceptions\HttpException;
+use Hpolthof\PostcodeTech\Exceptions\PostcodeNotFoundException;
+use Hpolthof\PostcodeTech\Exceptions\ValidationException;
+use Hpolthof\PostcodeTech\Postcode;
 
 $apiKey = '';
 

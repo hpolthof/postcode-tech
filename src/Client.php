@@ -1,12 +1,12 @@
 <?php
 
-namespace Kkevindev\PostcodeTech;
+namespace Hpolthof\PostcodeTech;
 
-use Kkevindev\PostcodeTech\Exceptions\HttpException;
-use Kkevindev\PostcodeTech\Exceptions\PostcodeNotFoundException;
-use Kkevindev\PostcodeTech\Exceptions\ValidationException;
-use Kkevindev\PostcodeTech\Http\Request\Headers;
-use Kkevindev\PostcodeTech\Http\Response\Response;
+use Hpolthof\PostcodeTech\Exceptions\HttpException;
+use Hpolthof\PostcodeTech\Exceptions\PostcodeNotFoundException;
+use Hpolthof\PostcodeTech\Exceptions\ValidationException;
+use Hpolthof\PostcodeTech\Http\Request\Headers;
+use Hpolthof\PostcodeTech\Http\Response\Response;
 
 final class Client
 {

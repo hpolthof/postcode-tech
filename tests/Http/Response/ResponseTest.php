@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Http\Response;
 
-use Kkevindev\PostcodeTech\Exceptions\HttpException;
-use Kkevindev\PostcodeTech\Http\Response\Response;
+use Hpolthof\PostcodeTech\Exceptions\HttpException;
+use Hpolthof\PostcodeTech\Http\Response\Response;
 use PHPUnit\Framework\TestCase;
 
 final class ResponseTest extends TestCase

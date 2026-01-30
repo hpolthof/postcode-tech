@@ -1,6 +1,6 @@
 <?php
 
-namespace Kkevindev\PostcodeTech\Exceptions;
+namespace Hpolthof\PostcodeTech\Exceptions;
 
 class HttpException extends \Exception
 {

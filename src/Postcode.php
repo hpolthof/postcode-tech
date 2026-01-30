@@ -1,10 +1,10 @@
 <?php
 
-namespace Kkevindev\PostcodeTech;
+namespace Hpolthof\PostcodeTech;
 
-use Kkevindev\PostcodeTech\Exceptions\HttpException;
-use Kkevindev\PostcodeTech\Exceptions\PostcodeNotFoundException;
-use Kkevindev\PostcodeTech\Exceptions\ValidationException;
+use Hpolthof\PostcodeTech\Exceptions\HttpException;
+use Hpolthof\PostcodeTech\Exceptions\PostcodeNotFoundException;
+use Hpolthof\PostcodeTech\Exceptions\ValidationException;
 
 class Postcode implements PostcodeInterface
 {

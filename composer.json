@@ -1,5 +1,5 @@
 {
-    "name": "kkevindev/postcode-tech",
+    "name": "hpolthof/postcode-tech",
     "description": "A library to easily lookup Dutch postcodes using postcode.tech",
     "license": "gpl-3.0-or-later",
     "type": "library",
@@ -14,13 +14,13 @@
 
     "autoload": {
         "psr-4": {
-            "Kkevindev\\PostcodeTech\\": "src/"
+            "Hpolthof\\PostcodeTech\\": "src/"
         }
     },
 
     "autoload-dev": {
         "psr-4": {
-            "Kkevindev\\PostcodeTech\\Tests\\": "tests/"
+            "Hpolthof\\PostcodeTech\\Tests\\": "tests/"
         }
     }
 }

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Http\Request;
 
-use Kkevindev\PostcodeTech\Http\Request\Headers;
+use Hpolthof\PostcodeTech\Http\Request\Headers;
 use PHPUnit\Framework\TestCase;
 
 final class HeadersTest extends TestCase
